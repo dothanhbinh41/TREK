@@ -5,8 +5,10 @@ const packing: TranslationStrings = {
   'packing.empty': 'Paket listesi boş',
   'packing.import': 'İçe aktar',
   'packing.importTitle': 'Paket listesini içe aktar',
-  'packing.importHint': 'Satır başına bir öğe. Biçim: Kategori, Ad, Ağırlık (g, isteğe bağlı), Çanta (isteğe bağlı), işaretli/işaretsiz (isteğe bağlı)',
-  'packing.importPlaceholder': 'Hijyen, Diş fırçası\\nGiyim, Tişört, 200\\nBelgeler, Pasaport, , El bagajı\\nElektronik, Şarj cihazı, 50, Bavul, işaretli',
+  'packing.importHint':
+    'Satır başına bir öğe. Biçim: Kategori, Ad, Ağırlık (g, isteğe bağlı), Çanta (isteğe bağlı), işaretli/işaretsiz (isteğe bağlı)',
+  'packing.importPlaceholder':
+    'Hijyen, Diş fırçası\\nGiyim, Tişört, 200\\nBelgeler, Pasaport, , El bagajı\\nElektronik, Şarj cihazı, 50, Bavul, işaretli',
   'packing.importCsv': 'CSV/TXT Yükle',
   'packing.importAction': '{count} Öğeyi içe aktar',
   'packing.importSuccess': '{count} öğe içe aktarıldı',
@@ -49,8 +51,10 @@ const packing: TranslationStrings = {
   'packing.bagName': 'Çanta adı...',
   'packing.addBag': 'Çanta ekle',
   'packing.changeCategory': 'Kategoriyi Değiştir',
-  'packing.confirm.clearChecked': '{count} İşaretli öğeyi kaldırmak istediğinizden emin misiniz?',
-  'packing.confirm.deleteCat': '"{name}" kategorisini {count} öğeyle birlikte silmek istediğinizden emin misiniz?',
+  'packing.confirm.clearChecked':
+    '{count} İşaretli öğeyi kaldırmak istediğinizden emin misiniz?',
+  'packing.confirm.deleteCat':
+    '"{name}" kategorisini {count} öğeyle birlikte silmek istediğinizden emin misiniz?',
   'packing.defaultCategory': 'Diğer',
   'packing.toast.saveError': 'Kaydedilemedi',
   'packing.toast.deleteError': 'Silinemedi',

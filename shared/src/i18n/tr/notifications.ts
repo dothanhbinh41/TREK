@@ -13,22 +13,26 @@ const notifications: TranslationStrings = {
   'notifications.markUnread': 'Okunmadı işaretle',
   'notifications.delete': 'Sil',
   'notifications.system': 'Sistem',
-  'notifications.synologySessionCleared.title': 'Synology Photos bağlantısı kesildi',
-  'notifications.synologySessionCleared.text': 'Sunucunuz veya hesabınız değişti — bağlantıyı test etmek için Ayarlar\'a gidin.',
+  'notifications.synologySessionCleared.title':
+    'Synology Photos bağlantısı kesildi',
+  'notifications.synologySessionCleared.text':
+    "Sunucunuz veya hesabınız değişti — bağlantıyı test etmek için Ayarlar'a gidin.",
   'notifications.versionAvailable.title': 'Güncelleme Mevcut',
   'notifications.versionAvailable.text': 'TREK {version} artık kullanılabilir.',
   'notifications.versionAvailable.button': 'Ayrıntıları Görüntüle',
   'notifications.test.title': '{actor} Kaynaklı test bildirimi',
   'notifications.test.text': 'Bu basit bir test bildirimidir.',
   'notifications.test.booleanTitle': '{actor} onayınızı istiyor',
-  'notifications.test.booleanText': 'Bu bir test boolean bildirimidir. Aşağıdan bir eylem seçin.',
+  'notifications.test.booleanText':
+    'Bu bir test boolean bildirimidir. Aşağıdan bir eylem seçin.',
   'notifications.test.accept': 'Onayla',
   'notifications.test.decline': 'Reddet',
   'notifications.test.navigateTitle': 'Bir şeye göz atın',
   'notifications.test.navigateText': 'Bu bir test navigasyon bildirimidir.',
   'notifications.test.goThere': 'Git',
   'notifications.test.adminTitle': 'Yönetici yayını',
-  'notifications.test.adminText': '{actor} tüm yöneticilere test bildirimi gönderdi.',
+  'notifications.test.adminText':
+    '{actor} tüm yöneticilere test bildirimi gönderdi.',
   'notifications.test.tripTitle': '{actor} seyahatinizde bir şey paylaştı',
   'notifications.test.tripText': '"{trip}" seyahati için test bildirimi.',
 };

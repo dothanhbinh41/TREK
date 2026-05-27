@@ -8,26 +8,30 @@ const notif: TranslationStrings = {
   'notif.trip_invite.title': 'Seyahat Daveti',
   'notif.trip_invite.text': '{actor} sizi {trip} seyahatine davet etti',
   'notif.booking_change.title': 'Rezervasyon Güncellendi',
-  'notif.booking_change.text': '{actor}, {trip} içindeki bir rezervasyonu güncelledi',
+  'notif.booking_change.text':
+    '{actor}, {trip} içindeki bir rezervasyonu güncelledi',
   'notif.trip_reminder.title': 'Seyahat Hatırlatıcısı',
   'notif.trip_reminder.text': '{trip} Seyahatiniz yaklaşıyor!',
   'notif.todo_due.title': 'Yapılacak vadesi',
   'notif.todo_due.text': '{trip} içindeki {todo} — son tarih: {due}',
   'notif.vacay_invite.title': 'Vacay Birleştirme Daveti',
-  'notif.vacay_invite.text': '{actor} tatil planlarını birleştirmeniz için sizi davet etti',
+  'notif.vacay_invite.text':
+    '{actor} tatil planlarını birleştirmeniz için sizi davet etti',
   'notif.photos_shared.title': 'Fotoğraflar Paylaşıldı',
-  'notif.photos_shared.text': '{actor}, {trip} içinde {count} fotoğraf paylaştı',
+  'notif.photos_shared.text':
+    '{actor}, {trip} içinde {count} fotoğraf paylaştı',
   'notif.collab_message.title': 'Yeni Mesaj',
   'notif.collab_message.text': '{actor}, {trip} içinde mesaj gönderdi',
   'notif.packing_tagged.title': 'Paket listesi ataması',
-  'notif.packing_tagged.text': '{actor} sizi {trip} içinde {category} kategorisine atadı',
+  'notif.packing_tagged.text':
+    '{actor} sizi {trip} içinde {category} kategorisine atadı',
   'notif.version_available.title': 'Yeni Sürüm Mevcut',
   'notif.version_available.text': 'TREK {version} artık kullanılabilir',
   'notif.action.view_trip': 'Seyahati Görüntüle',
   'notif.action.view_collab': 'Mesajları Görüntüle',
   'notif.action.view_packing': 'Paket listesini görüntüle',
   'notif.action.view_photos': 'Fotoğrafları Görüntüle',
-  'notif.action.view_vacay': 'Vacay\'ı Görüntüle',
+  'notif.action.view_vacay': "Vacay'ı Görüntüle",
   'notif.action.view_admin': 'Yöneticiye git',
   'notif.action.view': 'Görüntüle',
   'notif.action.accept': 'Kabul et',
@@ -35,6 +39,7 @@ const notif: TranslationStrings = {
   'notif.generic.title': 'Bildirim',
   'notif.generic.text': 'Yeni bir bildiriminiz var',
   'notif.dev.unknown_event.title': '[GEL] Bilinmeyen Olay',
-  'notif.dev.unknown_event.text': '"{event}" olay türü EVENT_NOTIFICATION_CONFIG içinde kayıtlı değil',
+  'notif.dev.unknown_event.text':
+    '"{event}" olay türü EVENT_NOTIFICATION_CONFIG içinde kayıtlı değil',
 };
 export default notif;

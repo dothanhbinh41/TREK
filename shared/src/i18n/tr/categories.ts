@@ -13,7 +13,8 @@ const categories: TranslationStrings = {
   'categories.defaultName': 'Kategori',
   'categories.update': 'Güncelle',
   'categories.create': 'Oluştur',
-  'categories.confirm.delete': 'Kategori silinsin mi? Bu kategorideki yerler silinmez.',
+  'categories.confirm.delete':
+    'Kategori silinsin mi? Bu kategorideki yerler silinmez.',
   'categories.toast.loadError': 'Kategoriler yüklenemedi',
   'categories.toast.nameRequired': 'Lütfen bir ad girin',
   'categories.toast.updated': 'Kategori güncellendi',

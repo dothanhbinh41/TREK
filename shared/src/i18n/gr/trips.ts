@@ -11,6 +11,7 @@ const trips: TranslationStrings = {
   'trips.reminderDays': 'ημέρες',
   'trips.reminderCustom': 'Προσαρμοσμένη',
   'trips.reminderDaysBefore': 'ημέρες πριν από την αναχώση',
-  'trips.reminderDisabledHint': 'Η ειδοποίηση για τις υπενθυμήσεις είναι απενεργοποιημένη. Ενεργοποιήστε την στο Διαχείριση > Ρυθμίσεις > Ανακοινώσεις.',
+  'trips.reminderDisabledHint':
+    'Η ειδοποίηση για τις υπενθυμήσεις είναι απενεργοποιημένη. Ενεργοποιήστε την στο Διαχείριση > Ρυθμίσεις > Ανακοινώσεις.',
 };
 export default trips;

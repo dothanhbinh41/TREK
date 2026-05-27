@@ -4,7 +4,8 @@ const budget: TranslationStrings = {
   'budget.title': 'Προϋπολογισμός',
   'budget.exportCsv': 'Εξαγωγή CSV',
   'budget.emptyTitle': 'Δεν έχει δημιουργηθεί προϋπολογισμός ακόμη',
-  'budget.emptyText': 'Δημιουργήστε κατηγορίες και εγγραφές για να σχεδιάσετε τον ταξιδιωτικό σας προϋπολογισμό',
+  'budget.emptyText':
+    'Δημιουργήστε κατηγορίες και εγγραφές για να σχεδιάσετε τον ταξιδιωτικό σας προϋπολογισμό',
   'budget.emptyPlaceholder': 'Εισαγάγετε όνομα κατηγορίας...',
   'budget.createCategory': 'Δημιουργία Κατηγορίας',
   'budget.category': 'Κατηγορία',
@@ -25,15 +26,18 @@ const budget: TranslationStrings = {
   'budget.totalBudget': 'Συνολικός Προϋπολογισμός',
   'budget.byCategory': 'Ανά Κατηγορία',
   'budget.editTooltip': 'Κάντε κλικ για επεξεργασία',
-  'budget.linkedToReservation': 'Συνδεδεμένο με κράτηση — επεξεργαστείτε το όνομα εκεί',
-  'budget.confirm.deleteCategory': 'Είστε σίγουροι ότι θέλετε να διαγράψετε την κατηγορία "{name}" με {count} εγγραφές;',
+  'budget.linkedToReservation':
+    'Συνδεδεμένο με κράτηση — επεξεργαστείτε το όνομα εκεί',
+  'budget.confirm.deleteCategory':
+    'Είστε σίγουροι ότι θέλετε να διαγράψετε την κατηγορία "{name}" με {count} εγγραφές;',
   'budget.deleteCategory': 'Διαγραφή Κατηγορίας',
   'budget.perPerson': 'Ανά Άτομο',
   'budget.paid': 'Πληρωμένο',
   'budget.open': 'Ανοιχτό',
   'budget.noMembers': 'Δεν έχουν ανατεθεί μέλη',
   'budget.settlement': 'Εκκαθάριση',
-  'budget.settlementInfo': 'Κάντε κλικ στο avatar ενός μέλους σε μια εγγραφή προϋπολογισμού για να το επισημάνετε πράσινο — αυτό σημαίνει ότι πλήρωσε. Η εκκαθάριση δείχνει στη συνέχεια ποιος χρωστάει σε ποιον και πόσα.',
+  'budget.settlementInfo':
+    'Κάντε κλικ στο avatar ενός μέλους σε μια εγγραφή προϋπολογισμού για να το επισημάνετε πράσινο — αυτό σημαίνει ότι πλήρωσε. Η εκκαθάριση δείχνει στη συνέχεια ποιος χρωστάει σε ποιον και πόσα.',
   'budget.netBalances': 'Καθαρά Υπόλοιπα',
   'budget.categoriesLabel': 'κατηγορίες',
 };

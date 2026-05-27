@@ -12,8 +12,10 @@ const backup: TranslationStrings = {
   'backup.createFirst': 'İlk yedeği oluştur',
   'backup.download': 'İndir',
   'backup.restore': 'Geri yükle',
-  'backup.confirm.restore': '"{name}" yedeği geri yüklensin mi?\\\\n\\\\nTüm mevcut veriler yedekle değiştirilecek.',
-  'backup.confirm.uploadRestore': '"{name}" yedek dosyası yüklenip geri yüklensin mi?\\\\n\\\\nTüm mevcut verilerin üzerine yazılacak.',
+  'backup.confirm.restore':
+    '"{name}" yedeği geri yüklensin mi?\\\\n\\\\nTüm mevcut veriler yedekle değiştirilecek.',
+  'backup.confirm.uploadRestore':
+    '"{name}" yedek dosyası yüklenip geri yüklensin mi?\\\\n\\\\nTüm mevcut verilerin üzerine yazılacak.',
   'backup.confirm.delete': '"{name}" yedeği silinsin mi?',
   'backup.toast.loadError': 'Yedekler yüklenemedi',
   'backup.toast.created': 'Yedek başarıyla oluşturuldu',
@@ -29,7 +31,8 @@ const backup: TranslationStrings = {
   'backup.auto.title': 'Otomatik yedekleme',
   'backup.auto.subtitle': 'Zamanlanmış otomatik yedekleme',
   'backup.auto.enable': 'Otomatik yedeklemeyi etkinleştir',
-  'backup.auto.enableHint': 'Yedekler seçilen programa göre otomatik oluşturulur',
+  'backup.auto.enableHint':
+    'Yedekler seçilen programa göre otomatik oluşturulur',
   'backup.auto.interval': 'Aralık',
   'backup.auto.hour': 'Çalışma saati',
   'backup.auto.hourHint': 'Sunucu yerel saati ({format} biçimi)',
@@ -41,7 +44,8 @@ const backup: TranslationStrings = {
   'backup.auto.summaryWeekly': 'Her {day} saat {hour}:00',
   'backup.auto.summaryMonthly': 'Her ayın {day}. günü saat {hour}:00',
   'backup.auto.envLocked': 'Liman işçisi',
-  'backup.auto.envLockedHint': 'Otomatik yedekleme Docker ortam değişkenleriyle yapılandırılır. Bu ayarları değiştirmek için docker-compose.yml dosyanızı güncelleyip konteyneri yeniden başlatın.',
+  'backup.auto.envLockedHint':
+    'Otomatik yedekleme Docker ortam değişkenleriyle yapılandırılır. Bu ayarları değiştirmek için docker-compose.yml dosyanızı güncelleyip konteyneri yeniden başlatın.',
   'backup.auto.copyEnv': 'Docker Ortam değişkenlerini kopyala',
   'backup.auto.envCopied': 'Docker ortam değişkenleri panoya kopyalandı',
   'backup.auto.keepLabel': 'Eski yedekleri şu süreden sonra sil',
@@ -63,8 +67,10 @@ const backup: TranslationStrings = {
   'backup.keep.30days': '30 gün',
   'backup.keep.forever': 'Sonsuza kadar sakla',
   'backup.restoreConfirmTitle': 'Yedek geri yüklensin mi?',
-  'backup.restoreWarning': 'Tüm mevcut veriler (seyahatler, yerler, kullanıcılar, yüklemeler) yedekle kalıcı olarak değiştirilecek. Bu işlem geri alınamaz.',
-  'backup.restoreTip': 'İpucu: Geri yüklemeden önce mevcut durumun yedeğini oluşturun.',
+  'backup.restoreWarning':
+    'Tüm mevcut veriler (seyahatler, yerler, kullanıcılar, yüklemeler) yedekle kalıcı olarak değiştirilecek. Bu işlem geri alınamaz.',
+  'backup.restoreTip':
+    'İpucu: Geri yüklemeden önce mevcut durumun yedeğini oluşturun.',
   'backup.restoreConfirm': 'Evet, geri yükle',
 };
 export default backup;

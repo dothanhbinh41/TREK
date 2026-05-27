@@ -24,7 +24,8 @@ const trip: TranslationStrings = {
   'trip.toast.reservationUpdated': 'Η κράτηση ενημερώθηκε',
   'trip.toast.reservationAdded': 'Η κράτηση προστέθηκε',
   'trip.toast.deleted': 'Διαγράφηκε',
-  'trip.confirm.deletePlace': 'Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το μέρος;',
+  'trip.confirm.deletePlace':
+    'Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το μέρος;',
   'trip.confirm.deletePlaces': 'Διαγραφή {count} μερών;',
   'trip.toast.placesDeleted': '{count} μέρη διαγράφηκαν',
 };

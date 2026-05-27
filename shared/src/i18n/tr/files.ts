@@ -13,10 +13,11 @@ const files: TranslationStrings = {
   'files.uploadError': 'Yükleme başarısız oldu',
   'files.dropzone': 'Dosyaları buraya bırakın',
   'files.dropzoneHint': 'veya göz atmak için tıklayın',
-  'files.allowedTypes': 'Görsel, PDF, DOC, DOCX, XLS, XLSX, TXT, CSV · Maks. 50 MB',
+  'files.allowedTypes':
+    'Görsel, PDF, DOC, DOCX, XLS, XLSX, TXT, CSV · Maks. 50 MB',
   'files.uploading': 'Yükleniyor...',
   'files.filterAll': 'Tüm',
-  'files.filterPdf': 'PDF\'ler',
+  'files.filterPdf': "PDF'ler",
   'files.filterImages': 'Görseller',
   'files.filterDocs': 'Belgeler',
   'files.filterCollab': 'İşbirliği Notları',
@@ -51,8 +52,10 @@ const files: TranslationStrings = {
   'files.toast.assigned': 'Dosya atandı',
   'files.toast.assignError': 'Atama başarısız',
   'files.toast.restoreError': 'Geri yükleme başarısız',
-  'files.confirm.permanentDelete': 'Bu dosya kalıcı olarak silinsin mi? Bu işlem geri alınamaz.',
-  'files.confirm.emptyTrash': 'Çöp kutusundaki tüm dosyalar kalıcı olarak silinsin mi? Bu işlem geri alınamaz.',
+  'files.confirm.permanentDelete':
+    'Bu dosya kalıcı olarak silinsin mi? Bu işlem geri alınamaz.',
+  'files.confirm.emptyTrash':
+    'Çöp kutusundaki tüm dosyalar kalıcı olarak silinsin mi? Bu işlem geri alınamaz.',
   'files.noteLabel': 'Not',
   'files.notePlaceholder': 'Not ekleyin...',
 };

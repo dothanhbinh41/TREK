@@ -4,11 +4,15 @@ const places: TranslationStrings = {
   'places.addPlace': 'Προσθήκη Μέρους/Δραστηριότητας',
   'places.importFile': 'Εισαγωγή αρχείου',
   'places.sidebarDrop': 'Αφήστε για εισαγωγή',
-  'places.importFileHint': 'Εισαγωγή αρχείων .gpx, .kml ή .kmz από εργαλεία όπως Google My Maps, Google Earth ή GPS tracker.',
-  'places.importFileDropHere': 'Κάντε κλικ για να επιλέξετε αρχείο ή σύρετε εδώ',
+  'places.importFileHint':
+    'Εισαγωγή αρχείων .gpx, .kml ή .kmz από εργαλεία όπως Google My Maps, Google Earth ή GPS tracker.',
+  'places.importFileDropHere':
+    'Κάντε κλικ για να επιλέξετε αρχείο ή σύρετε εδώ',
   'places.importFileDropActive': 'Αφήστε το αρχείο για επιλογή',
-  'places.importFileUnsupported': 'Μη υποστηριζόμενος τύπος αρχείου. Χρησιμοποιήστε .gpx, .kml ή .kmz.',
-  'places.importFileTooLarge': 'Το αρχείο είναι πολύ μεγάλο. Το μέγιστο μέγεθος μεταφόρτωσης είναι {maxMb} MB.',
+  'places.importFileUnsupported':
+    'Μη υποστηριζόμενος τύπος αρχείου. Χρησιμοποιήστε .gpx, .kml ή .kmz.',
+  'places.importFileTooLarge':
+    'Το αρχείο είναι πολύ μεγάλο. Το μέγιστο μέγεθος μεταφόρτωσης είναι {maxMb} MB.',
   'places.importFileError': 'Η εισαγωγή απέτυχε',
   'places.importAllSkipped': 'Όλα τα μέρη υπήρχαν ήδη στο ταξίδι.',
   'places.gpxImported': '{count} μέρη εισήχθησαν από GPX',
@@ -16,23 +20,28 @@ const places: TranslationStrings = {
   'places.gpxImportWaypoints': 'Σημεία διαδρομής',
   'places.gpxImportRoutes': 'Διαδρομές',
   'places.gpxImportTracks': 'Ίχνη (με γεωμετρία διαδρομής)',
-  'places.gpxImportNoneSelected': 'Επιλέξτε τουλάχιστον έναν τύπο για εισαγωγή.',
+  'places.gpxImportNoneSelected':
+    'Επιλέξτε τουλάχιστον έναν τύπο για εισαγωγή.',
   'places.kmlImportTypes': 'Τι θέλετε να εισάγετε;',
   'places.kmlImportPoints': 'Σημεία (Placemarks)',
   'places.kmlImportPaths': 'Διαδρομές (LineStrings)',
-  'places.kmlImportNoneSelected': 'Επιλέξτε τουλάχιστον έναν τύπο για εισαγωγή.',
+  'places.kmlImportNoneSelected':
+    'Επιλέξτε τουλάχιστον έναν τύπο για εισαγωγή.',
   'places.selectionCount': '{count} επιλεγμένα',
   'places.deleteSelected': 'Διαγραφή επιλεγμένων',
   'places.kmlKmzImported': '{count} μέρη εισήχθησαν από KMZ/KML',
   'places.urlResolved': 'Το μέρος εισήχθη από URL',
   'places.importList': 'Εισαγωγή Λίστας',
-  'places.kmlKmzSummaryValues': 'Placemarks: {total} • Εισήχθησαν: {created} • Παραλείφθηκαν: {skipped}',
+  'places.kmlKmzSummaryValues':
+    'Placemarks: {total} • Εισήχθησαν: {created} • Παραλείφθηκαν: {skipped}',
   'places.importGoogleList': 'Λίστα Google',
   'places.importNaverList': 'Λίστα Naver',
-  'places.googleListHint': 'Επικολλήστε έναν κοινοποιημένο σύνδεσμο λίστας Google Maps για να εισάγετε όλα τα μέρη.',
+  'places.googleListHint':
+    'Επικολλήστε έναν κοινοποιημένο σύνδεσμο λίστας Google Maps για να εισάγετε όλα τα μέρη.',
   'places.googleListImported': '{count} μέρη εισήχθησαν από "{list}"',
   'places.googleListError': 'Αποτυχία εισαγωγής λίστας Google Maps',
-  'places.naverListHint': 'Επικολλήστε έναν κοινοποιημένο σύνδεσμο λίστας Naver Maps για να εισάγετε όλα τα μέρη.',
+  'places.naverListHint':
+    'Επικολλήστε έναν κοινοποιημένο σύνδεσμο λίστας Naver Maps για να εισάγετε όλα τα μέρη.',
   'places.naverListImported': '{count} μέρη εισήχθησαν από "{list}"',
   'places.naverListError': 'Αποτυχία εισαγωγής λίστας Naver Maps',
   'places.viewDetails': 'Προβολή Λεπτομερειών',
@@ -69,12 +78,15 @@ const places: TranslationStrings = {
   'places.formNotes': 'Σημειώσεις',
   'places.formNotesPlaceholder': 'Προσωπικές σημειώσεις...',
   'places.formReservation': 'Κράτηση',
-  'places.reservationNotesPlaceholder': 'Σημειώσεις κράτησης, αριθμός επιβεβαίωσης...',
+  'places.reservationNotesPlaceholder':
+    'Σημειώσεις κράτησης, αριθμός επιβεβαίωσης...',
   'places.mapsSearchPlaceholder': 'Αναζήτηση μερών...',
   'places.mapsSearchError': 'Η αναζήτηση μέρους απέτυχε.',
   'places.loadingDetails': 'Φόρτωση λεπτομερειών μέρους…',
-  'places.osmHint': 'Χρήση αναζήτησης OpenStreetMap (χωρίς φωτογραφίες, ώρες λειτουργίας ή αξιολογήσεις). Προσθέστε ένα κλειδί Google API στις ρυθμίσεις για πλήρεις λεπτομέρειες.',
-  'places.osmActive': 'Αναζήτηση μέσω OpenStreetMap (χωρίς φωτογραφίες, αξιολογήσεις ή ώρες λειτουργίας). Προσθέστε ένα κλειδί Google API στις Ρυθμίσεις για εμπλουτισμένα δεδομένα.',
+  'places.osmHint':
+    'Χρήση αναζήτησης OpenStreetMap (χωρίς φωτογραφίες, ώρες λειτουργίας ή αξιολογήσεις). Προσθέστε ένα κλειδί Google API στις ρυθμίσεις για πλήρεις λεπτομέρειες.',
+  'places.osmActive':
+    'Αναζήτηση μέσω OpenStreetMap (χωρίς φωτογραφίες, αξιολογήσεις ή ώρες λειτουργίας). Προσθέστε ένα κλειδί Google API στις Ρυθμίσεις για εμπλουτισμένα δεδομένα.',
   'places.categoryCreateError': 'Αποτυχία δημιουργίας κατηγορίας',
   'places.nameRequired': 'Παρακαλώ εισαγάγετε ένα όνομα',
   'places.saveError': 'Αποτυχία αποθήκευσης',

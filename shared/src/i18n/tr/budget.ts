@@ -4,7 +4,8 @@ const budget: TranslationStrings = {
   'budget.title': 'Bütçe',
   'budget.exportCsv': 'CSV dışa aktar',
   'budget.emptyTitle': 'Henüz bütçe oluşturulmadı',
-  'budget.emptyText': 'Seyahat bütçenizi planlamak için kategoriler ve kayıtlar oluşturun',
+  'budget.emptyText':
+    'Seyahat bütçenizi planlamak için kategoriler ve kayıtlar oluşturun',
   'budget.emptyPlaceholder': 'Kategori adı girin...',
   'budget.createCategory': 'Kategori Oluştur',
   'budget.category': 'Kategori',
@@ -26,14 +27,16 @@ const budget: TranslationStrings = {
   'budget.byCategory': 'Kategoriye Göre',
   'budget.editTooltip': 'Düzenlemek için tıklayın',
   'budget.linkedToReservation': 'Bir rezervasyona bağlı — adı orada düzenleyin',
-  'budget.confirm.deleteCategory': '"{name}" kategorisini {count} kayıtla birlikte silmek istediğinizden emin misiniz?',
+  'budget.confirm.deleteCategory':
+    '"{name}" kategorisini {count} kayıtla birlikte silmek istediğinizden emin misiniz?',
   'budget.deleteCategory': 'Kategoriyi Sil',
   'budget.perPerson': 'Kişi Başı',
   'budget.paid': 'Ödendi',
   'budget.open': 'Açık',
   'budget.noMembers': 'Atanmış üye yok',
   'budget.settlement': 'Hesaplaşma',
-  'budget.settlementInfo': 'Bir bütçe kalemindeki üye avatarına tıklayarak yeşil işaretleyin — bu ödedikleri anlamına gelir. Hesaplaşma kimin kime ne kadar borçlu olduğunu gösterir.',
+  'budget.settlementInfo':
+    'Bir bütçe kalemindeki üye avatarına tıklayarak yeşil işaretleyin — bu ödedikleri anlamına gelir. Hesaplaşma kimin kime ne kadar borçlu olduğunu gösterir.',
   'budget.netBalances': 'Net Bakiyeler',
   'budget.categoriesLabel': 'kategoriler',
 };

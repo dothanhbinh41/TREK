@@ -3,12 +3,16 @@ import type { TranslationStrings } from '../types';
 const dayplan: TranslationStrings = {
   'dayplan.icsTooltip': 'Εξαγωγή ημερολογίου (ICS)',
   'dayplan.emptyDay': 'Δεν υπάρχουν προγραμματισμένα μέρη για αυτή την ημέρα',
-  'dayplan.cannotReorderTransport': 'Οι κρατήσεις με σταθερή ώρα δεν μπορούν να αναδιαταχθούν',
+  'dayplan.cannotReorderTransport':
+    'Οι κρατήσεις με σταθερή ώρα δεν μπορούν να αναδιαταχθούν',
   'dayplan.confirmRemoveTimeTitle': 'Αφαίρεση ώρας;',
-  'dayplan.confirmRemoveTimeBody': 'Αυτό το μέρος έχει σταθερή ώρα ({time}). Η μετακίνησή του θα αφαιρέσει την ώρα και θα επιτρέψει ελεύθερη ταξινόμηση.',
+  'dayplan.confirmRemoveTimeBody':
+    'Αυτό το μέρος έχει σταθερή ώρα ({time}). Η μετακίνησή του θα αφαιρέσει την ώρα και θα επιτρέψει ελεύθερη ταξινόμηση.',
   'dayplan.confirmRemoveTimeAction': 'Αφαίρεση ώρας & μετακίνηση',
-  'dayplan.cannotDropOnTimed': 'Τα στοιχεία δεν μπορούν να τοποθετηθούν μεταξύ καταχωρήσεων με ώρα',
-  'dayplan.cannotBreakChronology': 'Αυτό θα έσπαγε τη χρονολογική σειρά των στοιχείων με ώρα και των κρατήσεων',
+  'dayplan.cannotDropOnTimed':
+    'Τα στοιχεία δεν μπορούν να τοποθετηθούν μεταξύ καταχωρήσεων με ώρα',
+  'dayplan.cannotBreakChronology':
+    'Αυτό θα έσπαγε τη χρονολογική σειρά των στοιχείων με ώρα και των κρατήσεων',
   'dayplan.addNote': 'Προσθήκη Σημείωσης',
   'dayplan.expandAll': 'Ανάπτυξη όλων των ημερών',
   'dayplan.collapseAll': 'Σύμπτυξη όλων των ημερών',
@@ -25,9 +29,11 @@ const dayplan: TranslationStrings = {
   'dayplan.optimize': 'Βελτιστοποίηση',
   'dayplan.optimized': 'Η διαδρομή βελτιστοποιήθηκε',
   'dayplan.routeError': 'Αποτυχία υπολογισμού διαδρομής',
-  'dayplan.toast.needTwoPlaces': 'Χρειάζονται τουλάχιστον δύο μέρη για βελτιστοποίηση διαδρομής',
+  'dayplan.toast.needTwoPlaces':
+    'Χρειάζονται τουλάχιστον δύο μέρη για βελτιστοποίηση διαδρομής',
   'dayplan.toast.routeOptimized': 'Η διαδρομή βελτιστοποιήθηκε',
-  'dayplan.toast.noGeoPlaces': 'Δεν βρέθηκαν μέρη με συντεταγμένες για τον υπολογισμό διαδρομής',
+  'dayplan.toast.noGeoPlaces':
+    'Δεν βρέθηκαν μέρη με συντεταγμένες για τον υπολογισμό διαδρομής',
   'dayplan.confirmed': 'Επιβεβαιωμένο',
   'dayplan.pendingRes': 'Εκκρεμές',
   'dayplan.pdf': 'PDF',

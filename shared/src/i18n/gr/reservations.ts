@@ -3,10 +3,12 @@ import type { TranslationStrings } from '../types';
 const reservations: TranslationStrings = {
   'reservations.title': 'Κρατήσεις',
   'reservations.empty': 'Δεν υπάρχουν κρατήσεις ακόμη',
-  'reservations.emptyHint': 'Προσθέστε κρατήσεις για πτήσεις, ξενοδοχεία και άλλα',
+  'reservations.emptyHint':
+    'Προσθέστε κρατήσεις για πτήσεις, ξενοδοχεία και άλλα',
   'reservations.add': 'Προσθήκη Κράτησης',
   'reservations.addManual': 'Χειροκίνητη Κράτηση',
-  'reservations.placeHint': 'Συμβουλή: Οι κρατήσεις δημιουργούνται καλύτερα απευθείας από ένα μέρος για να συνδεθούν με το ημερήσιο πλάνο σας.',
+  'reservations.placeHint':
+    'Συμβουλή: Οι κρατήσεις δημιουργούνται καλύτερα απευθείας από ένα μέρος για να συνδεθούν με το ημερήσιο πλάνο σας.',
   'reservations.confirmed': 'Επιβεβαιωμένο',
   'reservations.pending': 'Εκκρεμές',
   'reservations.summary': '{confirmed} επιβεβαιωμένες, {pending} εκκρεμείς',
@@ -27,7 +29,8 @@ const reservations: TranslationStrings = {
   'reservations.meta.from': 'Από',
   'reservations.meta.to': 'Προς',
   'reservations.needsReview': 'Έλεγχος',
-  'reservations.needsReviewHint': 'Δεν ήταν δυνατή η αυτόματη αντιστοίχιση του αεροδρομίου — παρακαλώ επιβεβαιώστε την τοποθεσία.',
+  'reservations.needsReviewHint':
+    'Δεν ήταν δυνατή η αυτόματη αντιστοίχιση του αεροδρομίου — παρακαλώ επιβεβαιώστε την τοποθεσία.',
   'reservations.searchLocation': 'Αναζήτηση σταθμού, λιμανιού, διεύθυνσης…',
   'reservations.meta.trainNumber': 'Αρ. Τρένου',
   'reservations.meta.platform': 'Αποβάθρα',
@@ -52,9 +55,11 @@ const reservations: TranslationStrings = {
   'reservations.type.event': 'Εκδήλωση',
   'reservations.type.tour': 'Περιήγηση',
   'reservations.type.other': 'Άλλο',
-  'reservations.confirm.delete': 'Είστε σίγουροι ότι θέλετε να διαγράψετε την κράτηση "{name}";',
+  'reservations.confirm.delete':
+    'Είστε σίγουροι ότι θέλετε να διαγράψετε την κράτηση "{name}";',
   'reservations.confirm.deleteTitle': 'Διαγραφή κράτησης;',
-  'reservations.confirm.deleteBody': 'Η κράτηση "{name}" θα διαγραφεί οριστικά.',
+  'reservations.confirm.deleteBody':
+    'Η κράτηση "{name}" θα διαγραφεί οριστικά.',
   'reservations.toast.updated': 'Η κράτηση ενημερώθηκε',
   'reservations.toast.removed': 'Η κράτηση διαγράφηκε',
   'reservations.toast.fileUploaded': 'Το αρχείο μεταφορτώθηκε',
@@ -86,7 +91,8 @@ const reservations: TranslationStrings = {
   'reservations.budgetCategory': 'Κατηγορία προϋπολογισμού',
   'reservations.budgetCategoryPlaceholder': 'π.χ. Μεταφορά, Κατάλυμα',
   'reservations.budgetCategoryAuto': 'Αυτόματα (από τον τύπο κράτησης)',
-  'reservations.budgetHint': 'Μια εγγραφή προϋπολογισμού θα δημιουργηθεί αυτόματα κατά την αποθήκευση.',
+  'reservations.budgetHint':
+    'Μια εγγραφή προϋπολογισμού θα δημιουργηθεί αυτόματα κατά την αποθήκευση.',
   'reservations.departureDate': 'Αναχώρηση',
   'reservations.arrivalDate': 'Άφιξη',
   'reservations.departureTime': 'Ώρα αναχ.',
@@ -107,7 +113,8 @@ const reservations: TranslationStrings = {
   'reservations.span.start': 'Έναρξη',
   'reservations.span.end': 'Λήξη',
   'reservations.span.ongoing': 'Σε εξέλιξη',
-  'reservations.validation.endBeforeStart': 'Η ημερομηνία/ώρα λήξης πρέπει να είναι μετά την ημερομηνία/ώρα έναρξης',
+  'reservations.validation.endBeforeStart':
+    'Η ημερομηνία/ώρα λήξης πρέπει να είναι μετά την ημερομηνία/ώρα έναρξης',
   'reservations.addBooking': 'Προσθήκη κράτησης',
 };
 export default reservations;

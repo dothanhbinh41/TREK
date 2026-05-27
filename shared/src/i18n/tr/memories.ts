@@ -3,8 +3,10 @@ import type { TranslationStrings } from '../types';
 const memories: TranslationStrings = {
   'memories.title': 'Fotoğraflar',
   'memories.notConnected': '{provider_name} bağlı değil',
-  'memories.notConnectedHint': 'Bu seyahate fotoğraf eklemek için Ayarlar\'dan {provider_name} örneğinizi bağlayın.',
-  'memories.notConnectedMultipleHint': 'Bu seyahate fotoğraf eklemek için Ayarlar\'dan şu fotoğraf sağlayıcılarından birini bağlayın: {provider_names}',
+  'memories.notConnectedHint':
+    "Bu seyahate fotoğraf eklemek için Ayarlar'dan {provider_name} örneğinizi bağlayın.",
+  'memories.notConnectedMultipleHint':
+    "Bu seyahate fotoğraf eklemek için Ayarlar'dan şu fotoğraf sağlayıcılarından birini bağlayın: {provider_names}",
   'memories.noDates': 'Fotoğrafları yüklemek için seyahatinize tarih ekleyin.',
   'memories.noPhotos': 'Fotoğraf bulunamadı',
   'memories.noPhotosHint':
@@ -16,14 +18,16 @@ const memories: TranslationStrings = {
   'memories.reviewTitle': 'Fotoğraflarınızı gözden geçirin',
   'memories.reviewHint': 'Paylaşımdan hariç tutmak için fotoğraflara tıklayın.',
   'memories.shareCount': '{count} Fotoğraf paylaş',
-  'memories.providerUrl': 'Sunucu URL\'si',
+  'memories.providerUrl': "Sunucu URL'si",
   'memories.providerApiKey': 'API Anahtarı',
   'memories.providerUsername': 'Kullanıcı adı',
   'memories.providerPassword': 'Şifre',
   'memories.providerOTP': 'MFA kodu (etkinse)',
   'memories.skipSSLVerification': 'SSL Sertifika doğrulamasını atla',
-  'memories.immichAutoUpload': 'Journey fotoğraflarını yüklerken Immich\'e yansıt',
-  'memories.providerUrlHintSynology': 'URL\'ye Photos uygulama yolunu ekleyin, örn. https://nas:5001/photo',
+  'memories.immichAutoUpload':
+    "Journey fotoğraflarını yüklerken Immich'e yansıt",
+  'memories.providerUrlHintSynology':
+    "URL'ye Photos uygulama yolunu ekleyin, örn. https://nas:5001/photo",
   'memories.testConnection': 'Bağlantıyı test et',
   'memories.testShort': 'Dene',
   'memories.testFirst': 'Önce bağlantıyı test edin',
@@ -32,7 +36,8 @@ const memories: TranslationStrings = {
   'memories.connectionSuccess': '{provider_name} ile bağlandı',
   'memories.connectionError': '{provider_name} ile bağlanılamadı',
   'memories.saved': '{provider_name} ayarları kaydedildi',
-  'memories.providerDisconnectedBanner': '{provider_name} Bağlantınız kesildi. Fotoğrafları görmek için Ayarlar\'dan yeniden bağlanın.',
+  'memories.providerDisconnectedBanner':
+    "{provider_name} Bağlantınız kesildi. Fotoğrafları görmek için Ayarlar'dan yeniden bağlanın.",
   'memories.saveError': '{provider_name} Ayarları kaydedilemedi',
   'memories.addPhotos': 'Fotoğraf ekle',
   'memories.linkAlbum': 'Albüm Bağla',
@@ -56,7 +61,8 @@ const memories: TranslationStrings = {
   'memories.tripDates': 'Seyahat tarihleri',
   'memories.allPhotos': 'Tüm fotoğraflar',
   'memories.confirmShareTitle': 'Seyahat üyeleriyle paylaşılsın mı?',
-  'memories.confirmShareHint': '{count} fotoğraf bu seyahatin tüm üyelerine görünür olacak. Daha sonra tek tek gizli yapabilirsiniz.',
+  'memories.confirmShareHint':
+    '{count} fotoğraf bu seyahatin tüm üyelerine görünür olacak. Daha sonra tek tek gizli yapabilirsiniz.',
   'memories.confirmShareButton': 'Fotoğrafları paylaş',
   'memories.error.loadAlbums': 'Albümler yüklenemedi',
   'memories.error.linkAlbum': 'Albüm bağlanamadı',
@@ -66,8 +72,10 @@ const memories: TranslationStrings = {
   'memories.error.addPhotos': 'Fotoğraflar eklenemedi',
   'memories.error.removePhoto': 'Fotoğraf kaldırılamadı',
   'memories.error.toggleSharing': 'Paylaşım güncellenemedi',
-  'memories.saveRouteNotConfigured': 'Bu sağlayıcı için kaydetme yolu yapılandırılmamış',
-  'memories.testRouteNotConfigured': 'Bu sağlayıcı için test yolu yapılandırılmamış',
+  'memories.saveRouteNotConfigured':
+    'Bu sağlayıcı için kaydetme yolu yapılandırılmamış',
+  'memories.testRouteNotConfigured':
+    'Bu sağlayıcı için test yolu yapılandırılmamış',
   'memories.fillRequiredFields': 'Lütfen tüm zorunlu alanları doldurun',
 };
 export default memories;

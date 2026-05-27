@@ -2,7 +2,8 @@ import type { TranslationStrings } from '../types';
 
 const shared: TranslationStrings = {
   'shared.expired': 'Ο σύνδεσμος έληξε ή δεν είναι έγκυρος',
-  'shared.expiredHint': 'Αυτός ο κοινόχρηστος σύνδεσμος ταξιδιού δεν είναι πλέον ενεργός.',
+  'shared.expiredHint':
+    'Αυτός ο κοινόχρηστος σύνδεσμος ταξιδιού δεν είναι πλέον ενεργός.',
   'shared.readOnly': 'Κοινόχρηστη προβολή μόνο για ανάγνωση',
   'shared.tabPlan': 'Σχέδιο',
   'shared.tabBookings': 'Κρατήσεις',

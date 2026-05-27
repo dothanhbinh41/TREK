@@ -7,7 +7,8 @@ const planner: TranslationStrings = {
   'planner.documents': 'Έγγραφα',
   'planner.dayPlan': 'Πρόγραμμα Ημέρας',
   'planner.reservations': 'Κρατήσεις',
-  'planner.minTwoPlaces': 'Απαιτούνται τουλάχιστον 2 τοποθεσίες με συντεταγμένες',
+  'planner.minTwoPlaces':
+    'Απαιτούνται τουλάχιστον 2 τοποθεσίες με συντεταγμένες',
   'planner.noGeoPlaces': 'Δεν υπάρχουν διαθέσιμες τοποθεσίες με συντεταγμένες',
   'planner.routeCalculated': 'Η διαδρομή υπολογίστηκε',
   'planner.routeCalcFailed': 'Δεν ήταν δυνατός ο υπολογισμός της διαδρομής',
@@ -33,7 +34,8 @@ const planner: TranslationStrings = {
   'planner.resConfirmed': 'Κράτηση επιβεβαιωμένη · ',
   'planner.notePlaceholder': 'Σημείωση\u2026',
   'planner.noteTimePlaceholder': 'Ώρα (προαιρετικό)',
-  'planner.noteExamplePlaceholder': 'π.χ. S3 στις 14:30 από τον κεντρικό σταθμό, φέρι από την προβλήτα 7, διάλειμμα μεσημεριανού\u2026',
+  'planner.noteExamplePlaceholder':
+    'π.χ. S3 στις 14:30 από τον κεντρικό σταθμό, φέρι από την προβλήτα 7, διάλειμμα μεσημεριανού\u2026',
   'planner.totalCost': 'Συνολικό κόστος',
   'planner.searchPlaces': 'Αναζήτηση τοποθεσιών\u2026',
   'planner.allCategories': 'Όλες οι Κατηγορίες',
@@ -47,7 +49,8 @@ const planner: TranslationStrings = {
   'planner.route': 'Διαδρομή',
   'planner.optimize': 'Βελτιστοποίηση',
   'planner.openGoogleMaps': 'Άνοιγμα στο Google Maps',
-  'planner.selectDayHint': 'Επιλέξτε μια ημέρα από την αριστερή λίστα για να δείτε το πρόγραμμα',
+  'planner.selectDayHint':
+    'Επιλέξτε μια ημέρα από την αριστερή λίστα για να δείτε το πρόγραμμα',
   'planner.noPlacesForDay': 'Δεν υπάρχουν τοποθεσίες για αυτή την ημέρα ακόμη',
   'planner.addPlacesLink': 'Προσθήκη τοποθεσιών \u2192',
   'planner.minTotal': 'λεπτά σύνολο',

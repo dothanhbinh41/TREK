@@ -3,10 +3,12 @@ import type { TranslationStrings } from '../types';
 const reservations: TranslationStrings = {
   'reservations.title': 'Rezervasyonlar',
   'reservations.empty': 'Henüz rezervasyon yok',
-  'reservations.emptyHint': 'Uçuşlar, oteller ve daha fazlası için rezervasyon ekleyin',
+  'reservations.emptyHint':
+    'Uçuşlar, oteller ve daha fazlası için rezervasyon ekleyin',
   'reservations.add': 'Rezervasyon Ekle',
   'reservations.addManual': 'Manuel Rezervasyon',
-  'reservations.placeHint': 'İpucu: Rezervasyonları doğrudan günlük planınıza bağlayacak bir yerden oluşturmak en iyisidir.',
+  'reservations.placeHint':
+    'İpucu: Rezervasyonları doğrudan günlük planınıza bağlayacak bir yerden oluşturmak en iyisidir.',
   'reservations.confirmed': 'Onaylandı',
   'reservations.pending': 'Askıda olması',
   'reservations.summary': '{confirmed} onaylandı, {pending} beklemede',
@@ -27,7 +29,8 @@ const reservations: TranslationStrings = {
   'reservations.meta.from': 'İtibaren',
   'reservations.meta.to': 'İle',
   'reservations.needsReview': 'Gözden geçirmek',
-  'reservations.needsReviewHint': 'Havaalanı otomatik olarak eşleştirilemedi; lütfen konumu onaylayın.',
+  'reservations.needsReviewHint':
+    'Havaalanı otomatik olarak eşleştirilemedi; lütfen konumu onaylayın.',
   'reservations.searchLocation': 'İstasyonu, limanı, adresi arayın…',
   'reservations.meta.trainNumber': 'Tren No.',
   'reservations.meta.platform': 'Platformu',
@@ -52,7 +55,8 @@ const reservations: TranslationStrings = {
   'reservations.type.event': 'Etkinlik',
   'reservations.type.tour': 'Tur',
   'reservations.type.other': 'Diğer',
-  'reservations.confirm.delete': '"{name}" rezervasyonunu silmek istediğinizden emin misiniz?',
+  'reservations.confirm.delete':
+    '"{name}" rezervasyonunu silmek istediğinizden emin misiniz?',
   'reservations.confirm.deleteTitle': 'Rezervasyon silinsin mi?',
   'reservations.confirm.deleteBody': '"{name}" kalıcı olarak silinecek.',
   'reservations.toast.updated': 'Rezervasyon güncellendi',
@@ -86,7 +90,8 @@ const reservations: TranslationStrings = {
   'reservations.budgetCategory': 'Bütçe kategorisi',
   'reservations.budgetCategoryPlaceholder': 'örn. Ulaşım, Konaklama',
   'reservations.budgetCategoryAuto': 'Otomatik (rezervasyon türünden)',
-  'reservations.budgetHint': 'Kaydederken otomatik olarak bir bütçe kaydı oluşturulur.',
+  'reservations.budgetHint':
+    'Kaydederken otomatik olarak bir bütçe kaydı oluşturulur.',
   'reservations.departureDate': 'Kalkış',
   'reservations.arrivalDate': 'Varış',
   'reservations.departureTime': 'Kalkış saati',
@@ -107,7 +112,8 @@ const reservations: TranslationStrings = {
   'reservations.span.start': 'Başlangıç',
   'reservations.span.end': 'Son',
   'reservations.span.ongoing': 'Devam ediyor',
-  'reservations.validation.endBeforeStart': 'Bitiş tarihi/saati başlangıçtan sonra olmalı',
+  'reservations.validation.endBeforeStart':
+    'Bitiş tarihi/saati başlangıçtan sonra olmalı',
   'reservations.addBooking': 'Rezervasyon ekle',
 };
 export default reservations;
