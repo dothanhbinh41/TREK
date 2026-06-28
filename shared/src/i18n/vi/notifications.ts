@@ -1,0 +1,36 @@
+import type { TranslationStrings } from '../types';
+
+const notifications: TranslationStrings = {
+  'notifications.title': 'Thông báo',
+  'notifications.markAllRead': 'Đánh dấu tất cả đã đọc',
+  'notifications.deleteAll': 'Xóa tất cả',
+  'notifications.showAll': 'Hiện tất cả thông báo',
+  'notifications.empty': 'Không có thông báo',
+  'notifications.emptyDescription': 'Bạn đã xem hết rồi!',
+  'notifications.all': 'Tất cả',
+  'notifications.unreadOnly': 'Chưa đọc',
+  'notifications.markRead': 'Đánh dấu đã đọc',
+  'notifications.markUnread': 'Đánh dấu chưa đọc',
+  'notifications.delete': 'Xóa',
+  'notifications.system': 'Hệ thống',
+  'notifications.synologySessionCleared.title': 'Đã ngắt kết nối Synology Photos',
+  'notifications.synologySessionCleared.text':
+    'Máy chủ hoặc tài khoản của bạn đã thay đổi — vào Cài đặt để kiểm tra lại kết nối.',
+  'notifications.versionAvailable.title': 'Có bản cập nhật',
+  'notifications.versionAvailable.text': 'TREK {version} đã có sẵn.',
+  'notifications.versionAvailable.button': 'Xem chi tiết',
+  'notifications.test.title': 'Thông báo thử từ {actor}',
+  'notifications.test.text': 'Đây là một thông báo thử đơn giản.',
+  'notifications.test.booleanTitle': '{actor} yêu cầu bạn phê duyệt',
+  'notifications.test.booleanText': 'Đây là thông báo thử dạng đồng ý/từ chối. Chọn một hành động bên dưới.',
+  'notifications.test.accept': 'Phê duyệt',
+  'notifications.test.decline': 'Từ chối',
+  'notifications.test.navigateTitle': 'Xem thử cái này',
+  'notifications.test.navigateText': 'Đây là thông báo thử dạng điều hướng.',
+  'notifications.test.goThere': 'Đến đó',
+  'notifications.test.adminTitle': 'Phát sóng quản trị',
+  'notifications.test.adminText': '{actor} đã gửi một thông báo thử tới tất cả quản trị viên.',
+  'notifications.test.tripTitle': '{actor} đã đăng trong chuyến đi của bạn',
+  'notifications.test.tripText': 'Thông báo thử cho chuyến đi "{trip}".',
+};
+export default notifications;

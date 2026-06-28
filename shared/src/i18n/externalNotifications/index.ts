@@ -17,6 +17,7 @@ import ru from '../ru/externalNotifications';
 import sv from '../sv/externalNotifications';
 import tr from '../tr/externalNotifications';
 import uk from '../uk/externalNotifications';
+import vi from '../vi/externalNotifications';
 import zhTW from '../zh-TW/externalNotifications';
 import zh from '../zh/externalNotifications';
 import type {
@@ -51,6 +52,7 @@ const LOCALES = {
   uk,
   gr,
   sv,
+  vi,
 } satisfies Record<string, NotificationLocale>;
 
 export const EMAIL_I18N: Record<string, EmailStrings> = Object.fromEntries(
